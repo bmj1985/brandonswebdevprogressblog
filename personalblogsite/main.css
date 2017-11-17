@@ -19,7 +19,7 @@ a {
   border: solid 1px black;
   align-self: center;
   justify-content: space-between;
-  height: 35vh;
+  height: 25vh;
   width: 100vw;
   background: url(images/navimage.jpeg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -50,6 +50,7 @@ h1 {
 .unorderedlist {
   display: flex;
   justify-content: flex-end;
+  margin: 20px;
 }
 
 .navli {
@@ -80,7 +81,7 @@ h1 {
   display: flex;
   flex-direction: column;
   width: 25vw;
-  max-height: 60vh;
+  max-height: 65vh;
 }
 
 .thumbnail {
@@ -111,7 +112,7 @@ time {
 }
 
 .readmore {
-  float: right;
+  text-align: right;
   color: rgb(0, 163, 255);
   margin-top: 5px;
 }

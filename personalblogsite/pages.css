@@ -77,3 +77,34 @@
   background: white;
   flex: 1;
 }
+
+.aboutme {
+  display: flex;
+  justify-content: space-around;
+}
+
+.aboutmephoto {
+  flex: 1;
+  align-self: center;
+  max-width: 700px;
+  max-height: 700px;
+  margin: 50px;
+}
+
+.textcontainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin: 50px;
+  padding: 50px;
+  align-self: center;
+}
+
+.aboutmeheading {
+  font-size: 2rem;
+}
+
+.aboutmedescription {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
