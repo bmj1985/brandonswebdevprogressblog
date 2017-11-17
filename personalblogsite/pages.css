@@ -1,69 +1,25 @@
-h1 {
+.blogh1 {
   margin: 1vh;
   padding: 3vh 3vh 0 3vh;
 }
 
-h1 a {
+.home {
   font-size: 3rem;
   text-decoration: none;
   color: black;
   opacity: 0.7;
 }
 
-h2 {
-  font-size: 1.5rem;
-  font-weight: 200;
-  margin: 0 1vh 1vh 1vh;
-  padding: 0 0 0 3vh;
-}
-
-.imageblock {
-  display: flex;
-  background: white;
-  flex: 1;
-}
-
-nav {
-  align-self: flex-end;
-  height: 5vh;
-  width: 100vw;
-  margin: 5px;
-}
-
-nav ul {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.headernav {
-  align-content: space-between;
-  margin: 5px;
-  padding: 5px;
-  background: white;
-  border-radius: 5px;
-  opacity: 0.5;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: black;
-  border-radius: 5px;
-  width: 10vw;
-  padding: 5px;
-  opacity: 1;
-  font-size: 1.1rem;
-  text-transform: uppercase;
-}
-
 .blogmain {
   margin: 5vw;
   padding: 5vw;
   align-self: center;
+  flex-direction: column;
 }
 
 .blogpagesection {
   display: flex;
-  /*flex-direction: column;*/
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -73,7 +29,7 @@ nav ul li a {
   margin-bottom: 10px;
 }
 
-h3 {
+.blogposttitle {
   align-self: flex-start;
   margin: 10px 10px 0 10px;
   padding: 10px;
@@ -92,7 +48,7 @@ h3 {
   padding: 5px;
   line-height: 1.5;
   max-width: 700px;
-  text-align: justify;
+  text-align: left;
 }
 
 .blogend {
@@ -107,4 +63,17 @@ h3 {
   height: 1px;
   background: black;
   background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin: 0 1vh 1vh 1vh;
+  padding: 0 0 0 3vh;
+}
+
+.imageblock {
+  display: flex;
+  background: white;
+  flex: 1;
 }

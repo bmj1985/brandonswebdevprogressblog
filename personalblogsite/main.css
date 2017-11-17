@@ -15,19 +15,13 @@ a {
   color: black;
 }
 
-header {
-  display: flex;
-  flex-direction: column;
-  border: solid 1px black;
-}
-
 .titleblock {
-  display: flex;
+  border: solid 1px black;
   align-self: center;
   justify-content: space-between;
-  height: 25vh;
+  height: 35vh;
   width: 100vw;
-  background: url(images/clouds3.jpeg) no-repeat center center fixed;
+  background: url(images/navimage.jpeg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -46,14 +40,14 @@ h1 {
   flex: 1;
 }
 
-nav {
+.navigation {
   align-self: flex-end;
   height: 5vh;
   width: 100vw;
   margin: 5px;
 }
 
-nav ul {
+.unorderedlist {
   display: flex;
   justify-content: flex-end;
 }
@@ -68,6 +62,7 @@ nav ul {
 }
 
 .navlink {
+  text-decoration: none;
   border-radius: 5px;
   width: 10vw;
   padding: 5px;
@@ -76,23 +71,23 @@ nav ul {
   text-transform: uppercase;
 }
 
-main {
+.mainindex {
   display: flex;
   justify-content: space-around;
 }
 
-section {
+.sectionindex {
   display: flex;
   flex-direction: column;
   width: 25vw;
   max-height: 60vh;
 }
 
-section img {
+.thumbnail {
   width: 25vw;
 }
 
-h2 {
+.indexh2 {
   align-self: center;
   font-size: 1.5rem;
   margin: 10vh 0 2vh 0;
@@ -128,8 +123,9 @@ footer {
   margin: 10px;
   border-top: solid 1px black;
   border-bottom: solid 1px black;
-  background: url(images/clouds3.jpeg) no-repeat center center fixed;
+  background: url(images/navimage.jpeg) no-repeat center center fixed;
   -webkit-background-size: cover;
+  -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
@@ -144,6 +140,7 @@ footer {
 }
 
 .footernav {
+  display: flex;
   margin: 1vh;
   align-self: center;
 }
