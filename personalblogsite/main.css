@@ -1,18 +1,21 @@
 body {
-  display: flex;
-  flex-direction: column;
   font-family: 'Catamaran', sans-serif;
   height: 100vh;
   letter-spacing: 0.1rem;
-}
-
-.wrapper {
-  flex: 1 0 auto;
+  font-weight: 300;
 }
 
 a {
   text-decoration: none;
   color: black;
+}
+
+.titleblock, footer, .blogtitleblock, .blogfooter {
+  background: url(images/navimage.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .titleblock {
@@ -21,10 +24,6 @@ a {
   justify-content: space-between;
   height: 25vh;
   width: 100vw;
-  background: url(images/navimage.jpeg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 h1 {
@@ -32,6 +31,19 @@ h1 {
   padding: 3vh;
   font-size: 5rem;
   opacity: 0.7;
+}
+
+h2 {
+  font-weight: 800;
+}
+
+h3 {
+  font-weight: 700;
+  margin: 1vh 0 1vh 0;
+}
+
+h4 {
+  font-weight: 600;
 }
 
 .imageblock {
@@ -94,14 +106,9 @@ h1 {
   margin: 10vh 0 2vh 0;
 }
 
-h3 {
-  margin: 1vh 0 1vh 0;
-  font-weight: 500;
-}
-
 time {
   margin: 1vh 0 1vh 0;
-  font-weight: thin;
+  font-weight: 300;
 }
 
 .blogpost {
@@ -122,13 +129,9 @@ footer {
   height: 5vh;
   width: 100vw;
   margin: 10px;
+  padding: 1vh;
   border-top: solid 1px black;
   border-bottom: solid 1px black;
-  background: url(images/navimage.jpeg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 .footercontainer {
@@ -158,12 +161,10 @@ footer {
 
 .copyright {
   display: flex;
-  justify-content: center;
-  align-content: center;
   width: 33vw;
   margin-left: 3vw;
 }
 
 small {
-  margin: auto 0 auto 0;
+  align-self: center;
 }
